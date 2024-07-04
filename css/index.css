@@ -3,7 +3,7 @@
 }
 
 #mainImage {
-  background-image: url("pictures/hero.jpg");
+  background-image: url("../pictures/hero.jpg");
   height: 60vh;
   background-size: cover;
   background-position: center;
