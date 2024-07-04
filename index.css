@@ -1,0 +1,40 @@
+* {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainImage {
+  background-image: url("/pictures/hero.jpg");
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
+.informationSection {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .informationSection {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .informationSection {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .informationSection {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
